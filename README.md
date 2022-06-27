@@ -33,7 +33,7 @@ unzip lab01.zip
 > Use Ok to test your knowledge with the following "What Would Python Display?" questions:
 >
 > ```shell
-> python3 ok -q control -u --locak
+> python3 ok -q control -u --local
 > ```
 >
 > **Hint**: Make sure your `while` loop conditions eventually evaluate to a false value, or they'll never stop! Typing `Ctrl-C` will stop infinite loops in the interpreter.
@@ -174,13 +174,15 @@ ______
 
 #### Q3: Debugging Quiz!
 
-The following is a quick quiz on different debugging techniques you should use in this class. You should refer to `Debugging.md` to answer the questions!
+The following is a quick quiz on different debugging techniques you should use in this class. You should refer to `Debugging.md`  o r `Debugging.pdf` to answer the questions!
 
 Run the following to run the quiz.
 
 ```shell
 python3 ok -q debugging-quiz -u --local
 ```
+
+> **Note**: In the debugging handout, I end each ok command with `--local`, which will not appear in the quiz, but the command is still right without `--local`.
 
 
 
@@ -317,6 +319,5 @@ Use Ok to test your code:
 ```shell
 python3 ok -q double_eights --local
 ```
-
 
 
